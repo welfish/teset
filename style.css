@@ -1,0 +1,71 @@
+.title {
+    color: white;
+    background-color: #003366;
+    font-size: 48px;
+    padding: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.move {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+/*box-shadow는 저 사진 윤곽에 그림자넣는거 */
+.move img {
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.15); 
+}
+
+/*대충 긁어온 표만들기*/
+.info {
+    border-collapse: collapse;
+    background-color: #222;
+    color: white;
+    width: 350px;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.info td {
+    padding: 12px;
+}
+
+.question {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #333;
+    color: yellow;
+    width: 120px;
+}
+
+.answer {
+    font-size: 18px;
+    color: lightyellow;
+}
+/*저 글자 백그라운드랑 글자랑 같이 해둔거*/
+.highlight-text {
+    color: red;
+    background-color: yellow;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.small-text {
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.search-links {
+    text-align: center;
+}
